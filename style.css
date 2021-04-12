@@ -1,5 +1,143 @@
-*{
-    margin: 0;
-    padding: 0;
+*, ::before, ::after{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: content-box;
+}
+
+body{
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+
+section.landing__page{
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    background: #ffffff;
+}
+
+a.nav_head{
+    position: absolute;
+    width: 296px;
+    height: 20px;
+    left: 48px;
+    top: 36px;
+}
+
+ul.main{
+    position: absolute;
+    width: 369px;
+    height: 32px;
+    left: 775px;
+    top: 36px;
+}
+
+a.login_button{
+    position: absolute;
+    width: 107px;
+    height: 56px;
+    left: 1753px;
+    top: 20px;
+}
+
+div.main_content{
+    position: absolute;
+    width: 854.11px;
+    height: 481px;
+    left: 48px;
+    top: 265px;
+}
+
+h1.main-head{
+    position: absolute;
+    width: 714px;
+    height: 80px;
+    left: 48px;
+    top: 334px;
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 80px;
+    color: #000000;
+}
+
+div.effect{
+    position: absolute;
+    width: 79.34px;
+    height: 82.41px;
+    left: 823.72px;
+    top: 265px;
+
+    transform: rotate(8.88deg);
+}
+
+div.effect:nth-child(1){
+    position: absolute;
+    width: 37px;
+    height: 70px;
+    left: 893.83px;
+    top: 330.23px;
+
+    border: 16px solid #000000;
+    transform: rotate(148.88deg);
+}
+
+div.effect:nth-child(2){
+    position: absolute;
+    width: 37px;
+    height: 70px;
+    left: 887.13px;
+    top: 334.24px;
+
+    border: 16px solid #EA524D;
+    transform: rotate(148.88deg);
+}
+
+p.main-para{
+    position: absolute;
+    width: 727px;
+    height: 120px;
+    left: 48px;
+    top: 458px
+}
+
+div.meta a.contact_us{
+    position: absolute;
+    width: 231px;
+    height: 96px;
+    left: 48px;
+    top: 650px;
+}
+
+div.meta a.testimonials{
+    position: absolute;
+    width: 296px;
+    height: 96px;
+    left: 299px;
+    top: 650px;
+}
+
+a.contact_us{
+    background: #000000;
+    border-radius: 24px;
+}
+
+a.testimonials{
+    background: #FFFFFF;
+    border: 4px solid #000000;
     box-sizing: border-box;
+    border-radius: 24px;
+}
+
+footer.footer{
+    position: absolute;
+    width: 167px;
+    height: 20px;
+    left: 48px;
+    top: 1036px;
 }
