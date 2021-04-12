@@ -89,10 +89,12 @@ div.main_content div.effect {
   transform: rotate(8.88deg);
   position: absolute;
   margin-top: 60px;
-  width: 32px;
-  height: 40px;
-  left: 550.13px;
-  top: 50.24px;
+  left: 530.13px;
+  top: 90.24px;
+}
+div.main_content div.effect svg {
+  width: 75px;
+  height: 65px;
 }
 div.main_content p.main-para {
   font-size: 22px;
