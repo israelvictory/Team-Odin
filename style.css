@@ -85,7 +85,7 @@ div.main_content h1.main-head span.red {
   color: #EA524D;
 }
 div.main_content div.effect {
-  position: absolute;
+  position: sticky;
   transform: rotate(8.88deg);
   position: absolute;
   margin-top: 60px;
@@ -136,6 +136,10 @@ div.main_content div.meta a.testimonials {
   border-radius: 15px;
 }
 
+div.row div.col {
+  display: grid;
+}
+
 footer.footer {
   position: absolute;
   margin-top: 60px;
@@ -148,6 +152,11 @@ footer.footer p.copyright {
   font-weight: 500;
   font-size: 16px;
   line-height: 16px;
+}
+footer.footer p.copyright span.c {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 550;
 }
 
 /* Hero section *//*# sourceMappingURL=style.css.map */

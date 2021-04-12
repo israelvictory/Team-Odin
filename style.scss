@@ -91,7 +91,7 @@ div.main_content{
     }
 
     div.effect {
-        position: absolute;
+        position: sticky;
         transform: rotate(8.88deg);
         position: absolute;
         margin-top: 60px;
@@ -149,7 +149,11 @@ div.main_content{
     }
 }
 
-
+div.row{
+    div.col{
+        display: grid;
+    }
+}
 
 footer.footer{
     position: absolute;
@@ -163,6 +167,12 @@ footer.footer{
         font-weight: 500;
         font-size: 16px;
         line-height: 16px;
+
+        span.c{
+            color: #000000;
+            font-size: 16px;
+            font-weight: 550;
+        }
     }
 }
 
