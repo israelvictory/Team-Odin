@@ -1,143 +1,120 @@
-*, ::before, ::after{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: content-box;
+*, ::before, ::after {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: content-box;
 }
 
-body{
-    position: absolute;
-    width: 1920px;
-    height: 1080px;
-    left: 0px;
-    top: 0px;
-    background: #FFFFFF;
+body {
+  background: #FFFFFF;
 }
 
-section.landing__page{
-    position: relative;
-    width: 1920px;
-    height: 1080px;
-    background: #ffffff;
+div.container__fluid {
+  width: 90%;
+  padding: 30px;
 }
 
-a.nav_head{
-    position: absolute;
-    width: 296px;
-    height: 20px;
-    left: 48px;
-    top: 36px;
+section.landing__page {
+  background: #ffffff;
 }
 
-ul.main{
-    position: absolute;
-    width: 369px;
-    height: 32px;
-    left: 775px;
-    top: 36px;
+nav.nav_head {
+  display: flex;
+  justify-content: space-between;
 }
 
-a.login_button{
-    position: absolute;
-    width: 107px;
-    height: 56px;
-    left: 1753px;
-    top: 20px;
+a.nav_head {
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
 }
 
-div.main_content{
-    position: absolute;
-    width: 854.11px;
-    height: 481px;
-    left: 48px;
-    top: 265px;
+ul.main {
+  list-style: none;
+  display: flex;
+}
+ul.main li.main_link {
+  margin-right: 20px;
+}
+ul.main li.main_link a.link {
+  text-decoration: none;
+  color: #000000 !important;
+  font-size: 20px;
 }
 
-h1.main-head{
-    position: absolute;
-    width: 714px;
-    height: 80px;
-    left: 48px;
-    top: 334px;
-    font-family: Sofia Pro;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 80px;
-    line-height: 80px;
-    color: #000000;
+a.login_button {
+  text-decoration: none;
+  color: #000;
+  background: #fff;
+  padding: 10px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  font-weight: bold;
 }
 
-div.effect{
-    position: absolute;
-    width: 79.34px;
-    height: 82.41px;
-    left: 823.72px;
-    top: 265px;
-
-    transform: rotate(8.88deg);
+div.body_div {
+  margin-top: 100px;
 }
 
-div.effect:nth-child(1){
-    position: absolute;
-    width: 37px;
-    height: 70px;
-    left: 893.83px;
-    top: 330.23px;
-
-    border: 16px solid #000000;
-    transform: rotate(148.88deg);
+div.main_content h1.main-head {
+  position: relative;
+  font-family: Sofia Pro;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 80px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+div.main_content h1.main-head span.red {
+  color: #EA524D;
+}
+div.main_content div.effect {
+  position: absolute;
+  transform: rotate(8.88deg);
+  position: absolute;
+  margin-top: 60px;
+  width: 37px;
+  height: 70px;
+  left: 700.13px;
+  top: 50.24px;
+}
+div.main_content p.main-para {
+  font-size: 32px;
+  width: 70%;
+  margin-bottom: 30px;
+}
+div.main_content div.meta {
+  margin-top: 50px;
+}
+div.main_content div.meta a.contact_us {
+  background: #000000;
+  box-sizing: border-box;
+  border-radius: 24px;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  box-sizing: border-box;
+  margin-right: 20px;
+}
+div.main_content div.meta a.testimonials {
+  background: #FFFFFF;
+  border: 4px solid #000000;
+  box-sizing: border-box;
+  border-radius: 24px;
+  font-weight: bold;
+  padding: 10px;
+  text-decoration: none;
+  color: #000;
 }
 
-div.effect:nth-child(2){
-    position: absolute;
-    width: 37px;
-    height: 70px;
-    left: 887.13px;
-    top: 334.24px;
-
-    border: 16px solid #EA524D;
-    transform: rotate(148.88deg);
+footer.footer {
+  position: absolute;
+  margin-top: 60px;
+  left: 40.13px;
+  top: 550.24px;
 }
-
-p.main-para{
-    position: absolute;
-    width: 727px;
-    height: 120px;
-    left: 48px;
-    top: 458px
-}
-
-div.meta a.contact_us{
-    position: absolute;
-    width: 231px;
-    height: 96px;
-    left: 48px;
-    top: 650px;
-}
-
-div.meta a.testimonials{
-    position: absolute;
-    width: 296px;
-    height: 96px;
-    left: 299px;
-    top: 650px;
-}
-
-a.contact_us{
-    background: #000000;
-    border-radius: 24px;
-}
-
-a.testimonials{
-    background: #FFFFFF;
-    border: 4px solid #000000;
-    box-sizing: border-box;
-    border-radius: 24px;
-}
-
-footer.footer{
-    position: absolute;
-    width: 167px;
-    height: 20px;
-    left: 48px;
-    top: 1036px;
-}
+footer.footer p.copyright {
+  font-size: 20px;
+  font-weight: 500;
+}/*# sourceMappingURL=style.css.map */
