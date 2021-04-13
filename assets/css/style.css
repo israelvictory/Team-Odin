@@ -1,16 +1,11 @@
-<<<<<<< HEAD:style.css
-=======
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&family=Sofia&display=swap");
-
->>>>>>> a7a02ac... Rebasing remote branch:assets/css/style.css
+@import url("/assets/fonts/Sofia/Sofia Pro Black Az.otf");
+@import url("/assets/fonts/Sofia/Sofia Pro Bold Az.otf");
+@import url("/assets/fonts/Sofia/Sofia Pro Regular Az.otf");
+@import url("/assets/fonts/Sofia/Sofia Pro Semi Bold Az.otf");
 *, ::before, ::after {
   margin: 0%;
   padding: 0%;
   box-sizing: content-box;
-}
-
-.landing__page {
-  overflow: hidden;
 }
 
 body {
@@ -18,8 +13,8 @@ body {
 }
 
 div.container__fluid {
-  width: 96%;
-  padding: 30px;
+  width: 90%;
+  padding: 10px 20px 0px 20px;
 }
 
 section.landing__page {
@@ -31,223 +26,96 @@ nav.nav_head {
   justify-content: space-between;
 }
 
-.head {
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-
 a.nav_head {
   text-decoration: none;
   color: #000000;
-  font-size: 17px;
-  font-weight: 700;
-  letter-spacing: 0.6px;
+  font-size: 20px;
   line-height: 20px;
 }
-
 a.nav_head span.red {
   color: #EA524D;
-}
-
-.menu_line {
-  position: absolute;
-  left: 572px;
-  width: 60px;
 }
 
 ul.main {
   list-style: none;
   display: flex;
 }
-
 ul.main li.main_link {
   margin-right: 20px;
 }
-
 ul.main li.main_link a.link {
   text-decoration: none;
   color: #000000 !important;
   font-size: 20px;
 }
-
 ul.main li.main_link a.link .active {
-  background: #a7a0a0;
+  background: #EA524D;
   border-radius: 4px;
 }
 
-.active {
-  text-decoration: underline;
-}
-
-.login_button {
+a.login_button {
   background: #FFFFFF;
-  border: 3px solid #000000;
+  border: 4px solid #000000;
   box-sizing: border-box;
   border-radius: 16px;
   font-family: Sofia Pro;
   font-style: normal;
   text-decoration: none;
   font-weight: 550;
-  padding: 13px 20px;
-  margin-top: -10px;
-  font-size: 18px;
-  line-height: 15px;
+  padding: 10px;
+  font-size: 20px;
+  line-height: 20px;
   color: #000000;
-}
-
-.hr {
-  position: relative;
-  bottom: 22px;
-  left: 85px;
-  height: 3.4px; 
-  border: none; 
-  color: #000; 
-  background-color: #000; 
-  width: 80%;
-}
-
-.check-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
-    margin: 20px 0;
-    color: #bdbdbd;
-    font-size: 13px;
-}
-
-.form-group {
-  color: #bdbdbd;
-  font-size: 14px;
-  margin: 20px 0;
-}
-
-input {
-  border: none;
-  border-bottom: 1px solid #bdbdbd;
-  margin: 15px 0;
-}
-
-#name, #email, #nationality{
-  width: 98%;
- 
-}
-#address{
-  margin-left: 6px;
-  width: 48%;
-}
-
-.downarr{
-  position: relative;
-  bottom: 40px;
-  left: 465px;
-}
-
-#tel {
-  width: 48%;
-}
-
-.terms {
-  margin: 50px 0;
-}
-
-.t_c {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 10px;
-    font-size: 13px;
-    color: #000;
-}
-
-.submit_btn {
-  position: relative;
-  top: 25px;
-  width: 17%;
-  background-color: black;
-  text-align: center;
-  padding: 13px 35px;
-  height: 39px;
-  border-radius: 20px;
-  margin: 0 auto;
-}
-
-.arrow {
-  position: relative;
-  bottom: 5px;
-  right: 25px;
-  padding: 0 15px;
-}
-
-.track {
-  padding: 1px 0;
-}
-
-.pre-track {
-  font-weight: 600;
-  margin-top: 6px;
-  color: #000;
-}
-
-.form-control::placeholder {
-  font-size: 12px;
-  color: #bdbdbd;
 }
 
 div.body_div {
-  margin-top: 80px;
+  margin-top: 100px;
 }
 
-/* div.main_content {
+div.main_content {
   max-width: 60%;
-} */
-
+}
 div.main_content h1.main-head {
   position: relative;
-  font-family: Sofia Pro;
+  font-family: "Sofia Pro Bold";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 60px;
-  line-height: 70px;
+  line-height: 80px;
   color: #000000;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
-
 div.main_content h1.main-head span.red {
   color: #EA524D;
 }
-
 div.main_content div.effect {
   position: sticky;
   transform: rotate(8.88deg);
   position: absolute;
   margin-top: 60px;
-  left: 570.13px;
+  left: 530.13px;
   top: 90.24px;
 }
-
 div.main_content div.effect svg {
   width: 75px;
   height: 65px;
 }
-
 div.main_content p.main-para {
   font-size: 22px;
-  width: 74% !important;
+  width: 70% !important;
   margin-bottom: 30px;
   font-weight: 500;
-  line-height: 40px;
+  line-height: 24px;
+  color: #000000;
 }
-
 div.main_content p.main-para span.red {
   color: #EA524D;
 }
-
 div.main_content div.meta {
   margin-top: 50px;
 }
-
 div.main_content div.meta a.contact_us {
-  font-family: Sofia Pro;
+  font-family: "Sofia Pro";
   font-style: normal;
   font-weight: 900;
   font-size: 20px;
@@ -259,13 +127,8 @@ div.main_content div.meta a.contact_us {
   padding: 13.5px;
   color: #FFFFFF;
 }
-
-.contact_us {
-  padding: 25px 35px !important;
-}
-
 div.main_content div.meta a.testimonials {
-  font-family: Sofia Pro;
+  font-family: "Sofia Pro";
   font-weight: bold;
   font-size: 20px;
   line-height: 24px;
@@ -278,36 +141,21 @@ div.main_content div.meta a.testimonials {
   border-radius: 15px;
 }
 
-.testimonials {
-  padding: 21px 35px !important;
-}
-
-
-div.row {
+div.row div.col {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 10px;
-}
-
-.span-col-3 {
-  grid-column: span 3 / auto;
-}
-
-.span-col-2 {
-  grid-column: span 2 / auto;
 }
 
 footer.footer {
   position: absolute;
   margin-top: 60px;
-  left: 25.13px;
+  left: 40.13px;
   top: 550.24px;
 }
 footer.footer p.copyright {
-  font-family: Sofia Pro;
+  font-family: "Sofia Pro";
   font-style: normal;
   font-weight: 500;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 16px;
 }
 footer.footer p.copyright span.c {
@@ -315,5 +163,6 @@ footer.footer p.copyright span.c {
   font-size: 16px;
   font-weight: 550;
 }
-
-/* Hero section *//*# sourceMappingURL=style.css.map */
+footer.footer p.copyright span.text-bold {
+  font-weight: 550;
+}/*# sourceMappingURL=style.css.map */
