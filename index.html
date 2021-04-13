@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Zuri x I4G Landing Page</title>
 </head>
@@ -12,15 +11,16 @@
     <section class="landing__page">
         <div class="container__fluid">
             <header class="header">
-                <nav class="nav navbar nav_head">
+                <nav class="nav_head">
                     <a href="" class="nav_head">
-                        Zuri<span class="red">.</span> Training x Ingressive4Good
+                        Zuri<span class="red">.</span> x Ingressive4Good
                     </a>
 
                     <ul class="main">
                         <li class="main_link">
                             <a href="" class="link active">
                                 Home
+                                <svg xmlns='http://www.w3.org/2000/svg' class='ionicon menu_line' viewBox='0 0 512 512'><title>Remove</title><path fill='none' stroke='#EA524D' stroke-linecap='round' stroke-linejoin='round' stroke-width='52' d='M400 256H112'/></svg>
                             </a>                        
                         </li>
                         <li class="main_link">
@@ -44,7 +44,7 @@
             <div class="body_div">
                 <div class="container_fluid">
                     <div class="row">
-                        <div class="col-6">
+                        <div class="span-col-3">
                             <div class="main_content">
                                 <h1 class="main-head">
                                     Learn<span class="red">.</span>
@@ -60,8 +60,8 @@
                                 </div>
 
                                 <p class="main-para">
-                                    Get all the skills you need to get started in the tech-space
-                                    <span class="red"> for free</span> with our beginner centered approach and mentorship
+                                    Get all the skills you need to get started in the tech-space for
+                                    <span class="red"> free</span> with our beginner centered approach and mentorship
                                     throughout the programme
                                 </p>
 
@@ -77,102 +77,76 @@
                             </div>
                         </div>
 
-                        <div class="col">
+                        <div class="span-col-2">
                             <div class="form_content">
                                 <div class="register">
                                     <p class="head">
-                                        Register
-
-                                        <span class="dash"></span>
+                                        Register <hr class="hr">
                                     </p>
 
-                                    <form action="" method="POST" class="register_form">
-                                        <div class="name">
-                                            <div class="form-group">
-                                              <label for="name">Name:</label>
-                                              <input type="text"
-                                                class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                              <small id="helpId" class="form-text text-muted">Help text</small>
-                                            </div>
-                                        </div>
-
-                                        <div class="email">
-                                            <div class="form-group">
-                                              <label for="email">Email:</label>
-                                              <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="">
-                                              <small id="emailHelpId" class="form-text text-muted">Help text</small>
-                                            </div>
-                                        </div>
-
-                                        <div class="mobile_address">
-                                            <div class="form-group">
-                                              <label for="mobile">Mobile: </label>
-                                              <input type="number" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                              <small id="helpId" class="form-text text-muted">Help text</small>
-                                            </div>
-
-                                            <div class="form-group">
-                                              <label for="address">Address: </label>
-                                              <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                              <small id="helpId" class="form-text text-muted">Help text</small>
-                                            </div>
-                                        </div>
-
-                                        <div class="nationality">
-                                            
-                                        </div>
+                                    <form action="" method="POST" class="form-group">
+                                        <input type="text" name="name" id="name" placeholder="Name"></br>
+                                        <input type="email" name="email" id="email" placeholder="Email"></br>
+                                        <input type="tel" name="tel" id="tel" placeholder="Mobile">
+                                        <input type="text" name="address" id="address" placeholder="Address"></br>
+                                        <input type="text" name="nationality" id="name" placeholder="Nationality">
+                                        <p class="downarr">
+                                            <svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512' width='20px'><title>Arrow Down</title><path fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='35' d='M112 268l144 144 144-144M256 392V100'/></svg>
+                                        </p>
 
                                         <div class="track">
                                             <label class="custom-control custom-checkbox">
-                                                <span class="label">
-                                                    Preferred track:
-                                                </span> <br>
+                                                <p class="pre-track">
+                                                    Preferred track
+                                                </p> 
+                                                <div class="check-grid">
 
-                                                <div class="row">
-                                                    <div class="col-4">
-                                                        <div class="frontend">
-                                                            <input type="checkbox" name="" id="" value="checkedValue" class="custom-control-input">
-                                                            <span class="fe">Frontend</span>
-                                                            <span class="custom-control-indicator"></span>
-                                                            <span class="custom-control-description"></span>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-4">
-                                                        <div class="backend">
-                                                            <input type="checkbox" name="" id="" value="checkedValue" class="custom-control-input">
-                                                            <span class="be">Backend</span>
-                                                            <span class="custom-control-indicator"></span>
-                                                            <span class="custom-control-description"></span>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-4">
-                                                        <div class="design">
-                                                            <input type="checkbox" name="" id="" value="checkedValue" class="custom-control-input">
-                                                            <span class="de">
-                                                                Design
-                                                            </span>
-                                                            <span class="custom-control-indicator"></span>
-                                                            <span class="custom-control-description"></span>
-                                                        </div>
-                                                    </div>
+                                                <div class="frontend">
+                                                    <input type="checkbox" name="" id="" value="checkedValue" class="custom-control-input">
+                                                    <span class="fe">Front-End</span>
+                                                    <span class="custom-control-indicator"></span>
+                                                    <span class="custom-control-description"></span>
                                                 </div>
+
+                                                <div class="backend">
+                                                    <input type="checkbox" name="" id="" value="checkedValue" class="custom-control-input">
+                                                    <span class="be">Back-End</span>
+                                                    <span class="custom-control-indicator"></span>
+                                                    <span class="custom-control-description"></span>
+                                                </div>
+
+                                                <div class="design">
+                                                    <input type="checkbox" name="" id="" value="checkedValue" class="custom-control-input">
+                                                    <span class="de">
+                                                        Design
+                                                    </span>
+                                                    <span class="custom-control-indicator"></span>
+                                                    <span class="custom-control-description"></span>
+                                                </div>
+
+                                                <div class="mobile">
+                                                    <input type="checkbox" name="" id="" value="checkedValue" class="custom-control-input">
+                                                    <span class="mo">
+                                                        Mobile Dev
+                                                    </span>
+                                                    <span class="custom-control-indicator"></span>
+                                                    <span class="custom-control-description"></span>
+                                                </div>
+                                                </div>
+                                              
                                             </label>
                                         </div>
 
-                                        <div class="terms">
-                                            <p class="terms">
-                                                By submitting you agree to our <span class="black">
-                                                    Terms of Service
-                                                </span>
+                                        <div class="t_c">
+                                            <p class="terms span-col-3">
+                                                <span style="color: #bdbdbd;">By submitting you agree to our </span> Terms of Service
                                             </p>
-                                        </div>
 
-                                        <div class="submit_btn">
-                                            <a href="" class="submit_btn">
-                                                <i class="fa fa-forward" aria-hidden="true"></i>
-                                            </a>
+                                            <p class="submit_btn span-col-2">
+                                                <a href="" class="arrow">
+                                                    <svg xmlns='http://www.w3.org/2000/svg' class='ionicon' width='50' viewBox='0 0 512 512'><title>Arrow Forward</title><path fill='none' stroke='#fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='40' d='M268 112l144 144-144 144M392 256H100'/></svg>
+                                                </a>
+                                            </p>
                                         </div>
                                     </form>
                                 </div>
@@ -185,7 +159,7 @@
             <footer class="footer">
                 <p class="copyright">
                     <span class="c">&copy;</span>
-                    2021 The Zuri Team
+                    2021 <b>Team Odin</b> for The Zuri Team
                 </p>
             </footer>
         </div>
